@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-02T14:56:04 IST" name="Suite" finished-at="2024-08-02T14:59:14 IST" duration-ms="190048">
+    <groups>
+    </groups>
+    <test started-at="2024-08-02T14:56:04 IST" name="Test" finished-at="2024-08-02T14:59:14 IST" duration-ms="190048">
+      <class name="com.testng.hdfc.HdfcLimited">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.HdfcLimited@55cf0d14]" started-at="2024-08-02T14:56:38 IST" name="setup" finished-at="2024-08-02T14:56:39 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="close()[pri:0, instance:com.testng.hdfc.HdfcLimited@55cf0d14]" started-at="2024-08-02T14:56:39 IST" name="close" finished-at="2024-08-02T14:56:43 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.HdfcLimited@55cf0d14]" started-at="2024-08-02T14:56:43 IST" name="setup" finished-at="2024-08-02T14:56:48 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loansPortal()[pri:0, instance:com.testng.hdfc.HdfcLimited@55cf0d14]" started-at="2024-08-02T14:56:48 IST" name="loansPortal" finished-at="2024-08-02T14:56:52 IST" duration-ms="4418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loansPortal -->
+      </class> <!-- com.testng.hdfc.HdfcLimited -->
+      <class name="com.testng.hdfc.CreditCardPortal">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:14 IST" name="setup" finished-at="2024-08-02T14:56:17 IST" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="close()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:17 IST" name="close" finished-at="2024-08-02T14:56:19 IST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:19 IST" name="tearDown" finished-at="2024-08-02T14:56:19 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:19 IST" name="setup" finished-at="2024-08-02T14:56:23 IST" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditcardPortal()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:23 IST" name="creditcardPortal" finished-at="2024-08-02T14:56:26 IST" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditcardPortal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.CreditCardPortal@28d18df5]" started-at="2024-08-02T14:56:26 IST" name="tearDown" finished-at="2024-08-02T14:56:26 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.CreditCardPortal -->
+      <class name="com.testng.hdfc.WholeSale">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.WholeSale@4066c471]" started-at="2024-08-02T14:59:06 IST" name="setup" finished-at="2024-08-02T14:59:11 IST" duration-ms="5767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wholeSale()[pri:0, instance:com.testng.hdfc.WholeSale@4066c471]" started-at="2024-08-02T14:59:11 IST" name="wholeSale" finished-at="2024-08-02T14:59:14 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wholeSale -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.WholeSale@4066c471]" started-at="2024-08-02T14:59:14 IST" name="tearDown" finished-at="2024-08-02T14:59:14 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.WholeSale -->
+      <class name="com.testng.hdfc.Hdfchoverclass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Hdfchoverclass@934b6cb]" started-at="2024-08-02T14:56:26 IST" name="setup" finished-at="2024-08-02T14:56:30 IST" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="close()[pri:0, instance:com.testng.hdfc.Hdfchoverclass@934b6cb]" started-at="2024-08-02T14:56:30 IST" name="close" finished-at="2024-08-02T14:56:32 IST" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Hdfchoverclass@934b6cb]" started-at="2024-08-02T14:56:32 IST" name="setup" finished-at="2024-08-02T14:56:37 IST" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hdfchover()[pri:0, instance:com.testng.hdfc.Hdfchoverclass@934b6cb]" started-at="2024-08-02T14:56:37 IST" name="hdfchover" finished-at="2024-08-02T14:56:38 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdfchover -->
+      </class> <!-- com.testng.hdfc.Hdfchoverclass -->
+      <class name="com.testng.hdfc.Personal">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Personal@b83a9be]" started-at="2024-08-02T14:57:35 IST" name="setup" finished-at="2024-08-02T14:57:41 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="personal()[pri:0, instance:com.testng.hdfc.Personal@b83a9be]" started-at="2024-08-02T14:57:41 IST" name="personal" finished-at="2024-08-02T14:57:43 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Personal@b83a9be]" started-at="2024-08-02T14:57:43 IST" name="tearDown" finished-at="2024-08-02T14:57:43 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.Personal -->
+      <class name="com.testng.hdfc.NRI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.NRI@27adc16e]" started-at="2024-08-02T14:57:28 IST" name="setup" finished-at="2024-08-02T14:57:33 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="nri()[pri:0, instance:com.testng.hdfc.NRI@27adc16e]" started-at="2024-08-02T14:57:33 IST" name="nri" finished-at="2024-08-02T14:57:35 IST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nri -->
+      </class> <!-- com.testng.hdfc.NRI -->
+      <class name="com.testng.hdfc.Selectproduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Selectproduct@2609b277]" started-at="2024-08-02T14:57:43 IST" name="setup" finished-at="2024-08-02T14:57:51 IST" duration-ms="7307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loans()[pri:0, instance:com.testng.hdfc.Selectproduct@2609b277]" started-at="2024-08-02T14:57:51 IST" name="loans" finished-at="2024-08-02T14:57:55 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loans -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Selectproduct@2609b277]" started-at="2024-08-02T14:57:55 IST" name="tearDown" finished-at="2024-08-02T14:57:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.Selectproduct -->
+      <class name="com.testng.hdfc.Agri">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Agri@48c76607]" started-at="2024-08-02T14:56:04 IST" name="setup" finished-at="2024-08-02T14:56:12 IST" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="agri()[pri:0, instance:com.testng.hdfc.Agri@48c76607]" started-at="2024-08-02T14:56:12 IST" name="agri" finished-at="2024-08-02T14:56:13 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agri -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Agri@48c76607]" started-at="2024-08-02T14:56:13 IST" name="tearDown" finished-at="2024-08-02T14:56:14 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.Agri -->
+      <class name="com.testng.hdfc.Selectproducttype1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:57:55 IST" name="setup" finished-at="2024-08-02T14:58:29 IST" duration-ms="34783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditCards()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:29 IST" name="creditCards" finished-at="2024-08-02T14:58:30 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:30 IST" name="tearDown" finished-at="2024-08-02T14:58:31 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:31 IST" name="setup" finished-at="2024-08-02T14:58:37 IST" duration-ms="6803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deposits()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:37 IST" name="deposits" finished-at="2024-08-02T14:58:38 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposits -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:38 IST" name="tearDown" finished-at="2024-08-02T14:58:38 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:38 IST" name="setup" finished-at="2024-08-02T14:58:50 IST" duration-ms="11107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dropdown()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:50 IST" name="dropdown" finished-at="2024-08-02T14:58:50 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:50 IST" name="tearDown" finished-at="2024-08-02T14:58:50 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:50 IST" name="setup" finished-at="2024-08-02T14:58:55 IST" duration-ms="5304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invest()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:55 IST" name="invest" finished-at="2024-08-02T14:58:56 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Selectproducttype1@1fd14d74]" started-at="2024-08-02T14:58:56 IST" name="tearDown" finished-at="2024-08-02T14:58:56 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.Selectproducttype1 -->
+      <class name="com.testng.hdfc.Loansportal">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:56:52 IST" name="setup" finished-at="2024-08-02T14:57:01 IST" duration-ms="9136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="close()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:57:01 IST" name="close" finished-at="2024-08-02T14:57:04 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:57:04 IST" name="tearDown" finished-at="2024-08-02T14:57:04 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:57:04 IST" name="setup" finished-at="2024-08-02T14:57:09 IST" duration-ms="5353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loansPortal()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:57:09 IST" name="loansPortal" finished-at="2024-08-02T14:57:28 IST" duration-ms="18544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loansPortal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.hdfc.Loansportal@3b74ac8]" started-at="2024-08-02T14:57:28 IST" name="tearDown" finished-at="2024-08-02T14:57:28 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.hdfc.Loansportal -->
+      <class name="com.testng.hdfc.SME">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.hdfc.SME@563e4951]" started-at="2024-08-02T14:58:56 IST" name="setup" finished-at="2024-08-02T14:59:01 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sme()[pri:0, instance:com.testng.hdfc.SME@563e4951]" started-at="2024-08-02T14:59:01 IST" name="sme" finished-at="2024-08-02T14:59:06 IST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sme -->
+      </class> <!-- com.testng.hdfc.SME -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.testng.hdfc.WholeSale">
+        <methods>
+          <include name="wholeSale"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testng.hdfc.WholeSale -->
+      <class name="com.testng.hdfc.Selectproducttype1">
+        <methods>
+          <include name="setup"/>
+          <include name="dropdown"/>
+          <include name="deposits"/>
+          <include name="tearDown"/>
+          <include name="creditCards"/>
+          <include name="invest"/>
+        </methods>
+      </class> <!-- com.testng.hdfc.Selectproducttype1 -->
+      <class name="com.testng.hdfc.SME">
+        <methods>
+          <include name="sme"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.hdfc.SME -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 02 14:56:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>190 seconds (190048 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testng.hdfc.Loansportal.close()'><b>close</b><br>Test class: com.testng.hdfc.Loansportal</td>
+<td></td>
+<td>2</td>
+<td>com.testng.hdfc.Loansportal@3b74ac8</td></tr>
+<tr>
+<td title='com.testng.hdfc.Selectproducttype1.creditCards()'><b>creditCards</b><br>Test class: com.testng.hdfc.Selectproducttype1</td>
+<td></td>
+<td>0</td>
+<td>com.testng.hdfc.Selectproducttype1@1fd14d74</td></tr>
+<tr>
+<td title='com.testng.hdfc.CreditCardPortal.close()'><b>close</b><br>Test class: com.testng.hdfc.CreditCardPortal</td>
+<td></td>
+<td>2</td>
+<td>com.testng.hdfc.CreditCardPortal@28d18df5</td></tr>
+<tr>
+<td title='com.testng.hdfc.Selectproducttype1.invest()'><b>invest</b><br>Test class: com.testng.hdfc.Selectproducttype1</td>
+<td></td>
+<td>0</td>
+<td>com.testng.hdfc.Selectproducttype1@1fd14d74</td></tr>
+<tr>
+<td title='com.testng.hdfc.Personal.personal()'><b>personal</b><br>Test class: com.testng.hdfc.Personal</td>
+<td></td>
+<td>1</td>
+<td>com.testng.hdfc.Personal@b83a9be</td></tr>
+<tr>
+<td title='com.testng.hdfc.Selectproducttype1.deposits()'><b>deposits</b><br>Test class: com.testng.hdfc.Selectproducttype1</td>
+<td></td>
+<td>0</td>
+<td>com.testng.hdfc.Selectproducttype1@1fd14d74</td></tr>
+<tr>
+<td title='com.testng.hdfc.Hdfchoverclass.close()'><b>close</b><br>Test class: com.testng.hdfc.Hdfchoverclass</td>
+<td></td>
+<td>2</td>
+<td>com.testng.hdfc.Hdfchoverclass@934b6cb</td></tr>
+<tr>
+<td title='com.testng.hdfc.HdfcLimited.close()'><b>close</b><br>Test class: com.testng.hdfc.HdfcLimited</td>
+<td></td>
+<td>3</td>
+<td>com.testng.hdfc.HdfcLimited@55cf0d14</td></tr>
+<tr>
+<td title='com.testng.hdfc.CreditCardPortal.creditcardPortal()'><b>creditcardPortal</b><br>Test class: com.testng.hdfc.CreditCardPortal</td>
+<td></td>
+<td>3</td>
+<td>com.testng.hdfc.CreditCardPortal@28d18df5</td></tr>
+<tr>
+<td title='com.testng.hdfc.Agri.agri()'><b>agri</b><br>Test class: com.testng.hdfc.Agri</td>
+<td></td>
+<td>1</td>
+<td>com.testng.hdfc.Agri@48c76607</td></tr>
+<tr>
+<td title='com.testng.hdfc.NRI.nri()'><b>nri</b><br>Test class: com.testng.hdfc.NRI</td>
+<td></td>
+<td>2</td>
+<td>com.testng.hdfc.NRI@27adc16e</td></tr>
+<tr>
+<td title='com.testng.hdfc.Loansportal.loansPortal()'><b>loansPortal</b><br>Test class: com.testng.hdfc.Loansportal</td>
+<td></td>
+<td>18</td>
+<td>com.testng.hdfc.Loansportal@3b74ac8</td></tr>
+<tr>
+<td title='com.testng.hdfc.Selectproducttype1.dropdown()'><b>dropdown</b><br>Test class: com.testng.hdfc.Selectproducttype1</td>
+<td></td>
+<td>0</td>
+<td>com.testng.hdfc.Selectproducttype1@1fd14d74</td></tr>
+<tr>
+<td title='com.testng.hdfc.HdfcLimited.loansPortal()'><b>loansPortal</b><br>Test class: com.testng.hdfc.HdfcLimited</td>
+<td></td>
+<td>4</td>
+<td>com.testng.hdfc.HdfcLimited@55cf0d14</td></tr>
+<tr>
+<td title='com.testng.hdfc.WholeSale.wholeSale()'><b>wholeSale</b><br>Test class: com.testng.hdfc.WholeSale</td>
+<td></td>
+<td>2</td>
+<td>com.testng.hdfc.WholeSale@4066c471</td></tr>
+<tr>
+<td title='com.testng.hdfc.Hdfchoverclass.hdfchover()'><b>hdfchover</b><br>Test class: com.testng.hdfc.Hdfchoverclass</td>
+<td></td>
+<td>0</td>
+<td>com.testng.hdfc.Hdfchoverclass@934b6cb</td></tr>
+<tr>
+<td title='com.testng.hdfc.SME.sme()'><b>sme</b><br>Test class: com.testng.hdfc.SME</td>
+<td></td>
+<td>4</td>
+<td>com.testng.hdfc.SME@563e4951</td></tr>
+<tr>
+<td title='com.testng.hdfc.Selectproduct.loans()'><b>loans</b><br>Test class: com.testng.hdfc.Selectproduct</td>
+<td></td>
+<td>4</td>
+<td>com.testng.hdfc.Selectproduct@2609b277</td></tr>
+</table><p>
+</body>
+</html>
